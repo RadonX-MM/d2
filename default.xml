@@ -13,7 +13,8 @@
            review="https://review.slimroms.org/"/>
 
   <default remote="caf"
-           sync-j="4" />
+           sync-j="4" 
+           sync-c="true"/>
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />

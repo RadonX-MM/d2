@@ -310,7 +310,6 @@
   <project path="hardware/qcom/media/default" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/media-caf/msm8960" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
- 
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0" />
@@ -328,7 +327,7 @@
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0" />
-   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="mm6.0" />
@@ -424,7 +423,6 @@
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="mm6.0" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="mm6.0" />
-  
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="mm6.0" />
 
   <!-- New Additions for slim -->
@@ -440,9 +438,6 @@
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="mm6.0" />
 
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="mm6.0" />
-
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="mm6.0" />
 
@@ -452,5 +447,4 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
-
 </manifest>
